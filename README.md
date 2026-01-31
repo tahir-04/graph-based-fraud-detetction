@@ -7,7 +7,7 @@ The entire project is implemented in a **Jupyter Notebook (VS Code)** and focuse
 
 ---
 
-## 🚀 Key Highlights
+##  **Key **Highlights
 - End-to-end **Graph-based Fraud Detection System**
 - Graph construction using **NetworkX**
 - Fraud classification using **Graph Convolutional Networks (GCN)** with **PyTorch Geometric**
