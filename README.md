@@ -7,7 +7,7 @@ The entire project is implemented in a **Jupyter Notebook (VS Code)** and focuse
 
 ---
 
-##  **Key **Highlights
+## Key Highlights
 - End-to-end **Graph-based Fraud Detection System**
 - Graph construction using **NetworkX**
 - Fraud classification using **Graph Convolutional Networks (GCN)** with **PyTorch Geometric**
@@ -18,7 +18,7 @@ The entire project is implemented in a **Jupyter Notebook (VS Code)** and focuse
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 Traditional fraud detection methods struggle to capture **relational patterns** between entities.  
 This project addresses that limitation by modeling data as a **graph**, where:
 
@@ -29,7 +29,7 @@ Graph Neural Networks exploit both **feature information** and **network structu
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 1. Synthetic transaction graph generation (scale-free network)
 2. Node feature engineering and fraud labeling
@@ -42,7 +42,7 @@ Graph Neural Networks exploit both **feature information** and **network structu
 
 ---
 
-## ⚙️ Techniques Used
+##  Techniques Used
 
 ### Graph Modeling
 - NetworkX graph construction
@@ -67,7 +67,7 @@ Graph Neural Networks exploit both **feature information** and **network structu
 
 ---
 
-## 📊 Final Model Performance (Test Set)
+##  Final Model Performance (Test Set)
 
 | Metric | Value |
 |------|------|
@@ -81,7 +81,7 @@ Graph Neural Networks exploit both **feature information** and **network structu
 
 ---
 
-## 📈 Generated Artifacts
+##  Generated Artifacts
 The project automatically generates the following outputs:
 
 - `Fraud_Analytics_Report.pdf`
@@ -92,7 +92,7 @@ The project automatically generates the following outputs:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 graph-based-fraud-detection/
 │── fraud_gnn.ipynb
 │── Fraud_Analytics_Report.pdf
@@ -106,9 +106,9 @@ graph-based-fraud-detection/
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 ```bash
 git clone https://github.com/tahir-04/graph-based-fraud-detetction.git
 cd graph-based-fraud-detetction
@@ -127,7 +127,7 @@ Final GNN performance relies on imbalance-aware loss functions
 
 This preserves graph topology integrity, which is critical for GNNs
 
-🔮 Future Enhancements
+ Future Enhancements
 Integration with real AML datasets (Elliptic Bitcoin, banking transactions)
 
 Graph Attention Networks (GAT)
@@ -138,5 +138,5 @@ Streaming transaction inference
 
 Interactive dashboard (Streamlit / Dash)
 
-👤 Author
+ Author
 Mohamed Tahir
