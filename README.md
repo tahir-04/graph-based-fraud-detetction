@@ -138,5 +138,3 @@ Streaming transaction inference
 
 Interactive dashboard (Streamlit / Dash)
 
- Author
-Mohamed Tahir
